@@ -13,6 +13,9 @@ A NetSuite Scheduled Script that uploads a File Cabinet CSV to an SFTP server us
 ### `suitelet_store_credentials.js`
 A NetSuite Suitelet that presents a form to generate and store an SFTP credential. It restricts the credential to specific domains and script IDs, then displays the generated credential GUID after submission. Customize the allowed domain and script IDs to match your environment.
 
+### `suitelet_generic_suiteql.js`
+A NetSuite Suitelet template that renders a SuiteQL-driven report with customizable filters, query columns, and WHERE clauses. It includes starter filters (date range and record selector), builds the query dynamically based on provided parameters, and displays results in a sublist. Replace the sample SELECT statement, filters, and sublist columns to fit your reporting use case.
+
 ## Getting started
 
 1. Download or clone the repository.
